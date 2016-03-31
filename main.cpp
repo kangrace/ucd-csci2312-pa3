@@ -62,8 +62,8 @@ int main() {
     test_cluster_IO(ec, NumIters);
 
     // kmeans tests
-    test_kmeans_smoketest(ec);
-    test_kmeans_run(ec, NumIters);
+  test_kmeans_smoketest(ec);
+   test_kmeans_run(ec, NumIters);
     test_kmeans_IO(ec, NumIters);
     test_kmeans_toofewpoints(ec, NumIters);
     test_kmeans_largepoints(ec, NumIters);

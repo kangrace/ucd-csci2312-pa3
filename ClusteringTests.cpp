@@ -64,8 +64,8 @@ bool ClusterCounts::parse_and_analyze() {
             std::string s(m[0]);
             std::regex r("[[:d:]]{1,}");
             std::regex_search(s, m, r);
-            int id = stoi(m[0]);
-            __counts[id] = __counts[id] + 1;
+//            int id = stoi(m[0]);
+//            __counts[id] = __counts[id] + 1;
         }
 
         for (auto it = __counts.begin(); it != __counts.end(); ++it)
